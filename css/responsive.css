@@ -1,0 +1,134 @@
+@media screen and (min-width: 576px) {
+  /* .home__title {
+    font-size: var(--h1-font-size);
+  } */
+  .product__description {
+    padding: 0 4rem;
+  }
+  .product__container {
+    grid-template-columns: repeat(2, 170px);
+    justify-content: center;
+    column-gap: 5rem;
+  }
+}
+
+@media screen and (min-width: 892px) {
+  body {
+    margin: 0;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+    /* column-gap: 3rem; */
+  }
+  .nav__toggle,
+  .nav__close {
+    display: none;
+  }
+  .nav__list {
+    flex-direction: row;
+    column-gap: 3rem;
+  }
+  .nav__menu {
+    margin-left: auto;
+  }
+
+  .home__container,
+  .questions__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home {
+    padding: 10rem 0 5rem;
+  }
+  .home__container {
+    align-items: center;
+    column-gap: 5rem;
+  }
+  .home__data {
+    order: 1;
+  }
+
+  .product__container {
+    grid-template-columns: repeat(3, 170px);
+    justify-content: center;
+    column-gap: 5rem;
+  }
+
+  .questions__container {
+    align-items: center;
+  }
+
+  .footer__container {
+    column-gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section {
+    padding: 8rem 0 1rem;
+  }
+  .section__title,
+  .section__title-center {
+    font-size: var(--header-height);
+  }
+
+  .home {
+    padding: 13rem 0 5rem;
+  }
+
+  .home__description {
+    padding-right: 7rem;
+  }
+
+  .product__container {
+    padding: 4rem 0;
+    grid-template-columns: repeat (3, 185px);
+    gap: 4rem 6rem;
+  }
+  .product__img {
+    width: 160px;
+  }
+  .product__card {
+    padding: 1.5rem 2rem;
+  }
+  .product__title {
+    font-size: var(--normal-font-size);
+  }
+
+  .questions__container {
+    padding: 1rem 0 4rem;
+  }
+  .questions__title {
+    text-align: initial;
+  }
+  .questions__group {
+    row-gap: 2rem;
+  }
+  .questions__header {
+    padding: 1rem;
+  }
+  .questions__description {
+    padding: 0 3.5rem 2.25rem 2.75rem;
+  }
+
+  /* .footer__container {
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+  }
+  .footer__copy {
+    margin: 2rem 0 2rem;
+  } */
+  .scrollup {
+    right: 3rem;
+  }
+}
