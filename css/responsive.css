@@ -1,7 +1,4 @@
 @media screen and (min-width: 576px) {
-  /* .home__title {
-    font-size: var(--h1-font-size);
-  } */
   .product__description {
     padding: 0 4rem;
   }
@@ -24,7 +21,6 @@
 
   .nav {
     height: calc(var(--header-height) + 1.5rem);
-    /* column-gap: 3rem; */
   }
   .nav__toggle,
   .nav__close {
@@ -122,12 +118,6 @@
     padding: 0 3.5rem 2.25rem 2.75rem;
   }
 
-  /* .footer__container {
-    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
-  }
-  .footer__copy {
-    margin: 2rem 0 2rem;
-  } */
   .scrollup {
     right: 3rem;
   }
